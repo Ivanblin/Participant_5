@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 410px;
+}
+
+
+/* body {
+  background: url(./img/05.jpg) no-repeat cover;
+} сокращенная запись почему-то у меня не работает */
+
+.main-title {
+  border: solid 2px #245488;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.fatty {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.brown {
+  color: brown;
+}
+
+.blueviolet {
+  color: blueviolet;
+}
+
+.orange {
+  color: orange;
+}
+
+header {
+  position: fixed;
+  right: 8px;
+}
+
+nav {
+  border: 2px solid #245488;
+  padding: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+td, th {
+  border: 3px solid #245488;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
